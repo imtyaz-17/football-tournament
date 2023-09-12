@@ -1,0 +1,128 @@
+/* fonts:  Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF;
+}
+
+/* banner styles */
+.banner {
+    width: 90%;
+    color: #FFF;
+    border-radius: 30px;
+    background-color: #161616;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 60px;
+    padding: 35px 80px 0 80px;
+}
+
+.banner-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-flex-size {
+    flex: 1;
+}
+
+.banner-title {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.banner p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 0 30px 0;
+}
+
+.watch-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    background: #D00;
+    border-radius: 5px;
+    padding: 16px 25px;
+    font-weight: 400;
+}
+
+.watch-btn:hover {
+    background: white;
+    color: #D00;
+}
+
+@keyframes load {
+
+    0%,
+    100% {
+        margin-left: 60px;
+    }
+
+    50% {
+        margin-left: 10px;
+    }
+}
+
+.fa-angle-right {
+    margin-left: 50px;
+    animation: load 1.5s ease-in-out infinite;
+}
+
+.banner-img {
+    flex: 1;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/*left side navbar styles */
+.side-nav {
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* .side-nav a {
+   
+} */
+
+.navb-btn {
+    color: #161616;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #fff;
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    text-decoration: none;
+    /* flexbox to center content */
+    display: flex;
+    /* Center vertically */
+    align-items: center;
+    /* Center horizontally */
+    justify-content: center;
+}

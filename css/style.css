@@ -23,7 +23,7 @@ body {
     margin: 0 auto;
     margin-top: 40px;
     display: flex;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     padding: 35px 80px 0 80px;
 }
 
@@ -93,22 +93,22 @@ body {
 }
 
 /*left side navbar styles */
-.side-nav {
+.side-navbar-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.side-navbar {
     width: 312px;
     height: 312px;
     background-color: #161616;
     border-radius: 10px;
-    margin-top: 130px;
+    margin-top: 70px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    gap: 24px;
 }
-
-/* .side-nav a {
-   
-} */
 
 .navb-btn {
     color: #161616;
@@ -125,4 +125,10 @@ body {
     align-items: center;
     /* Center horizontally */
     justify-content: center;
+}
+
+.active,
+.navb-btn:hover {
+    background: #D00;
+    color: #FFF;
 }

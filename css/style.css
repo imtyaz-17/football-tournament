@@ -374,35 +374,33 @@ hr {
     }
 }
 
-
-
 /* Tablet View - Max Width: 992px */
-/* 
+
 @media only screen and (min-width:689px) and (max-width:992px) {
 
-    /*--------------------------Banner (tablet View) -----  */
-/* .banner {
+    /*------------ Banner -----  */
+    .banner {
         display: flex;
         width: 95%;
         padding: 30px 30px 0 30px;
-        background-color: red;
+        margin-bottom: 30px;
     }
 
-    .banner-container-left {
+    .banner-content {
         margin-right: 20px;
     }
 
-    .banner-left-title {
+    .banner-title {
         font-size: 2em;
         line-height: 40px;
-    } */
+    }
 
-/*-----------------------Blog Section (tablet View) -----  */
-/* .blog-contents-section {
+    /*-------- Blog Section -----  */
+    .blogs-section {
         flex-direction: column;
     }
 
-    .sude-menu-container {
+    .side-navbar {
         width: 100%;
         height: fit-content;
         flex-direction: row;
@@ -411,39 +409,45 @@ hr {
         background: none;
     }
 
-    .menu {
-        flex: 1;
-        width: 80%;
-        border: 1px solid rgb(172, 172, 172);
+    .navb-btn {
+        width: 90%;
+        border: 1px solid #E8E8E8;
     }
 
-    .menu-all-groups {
-        margin: 0 20px;
+    .navb-btn:nth-child(2) {
+        margin: 0 25px;
     }
 
-    .menu:hover {
-        background-color: #FFF;
-    }
-
-    .blog-cards-container {
+    .blogs {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* ---------------------------- View All Button (Tablet View) ---------- */
-/* .view-all-button-section {
-    visibility: visible;
-} */
+    /* ----- View All Button ----- */
+    .view-all-btn {
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+    }
 
-/* ---------------------------- Footer (Tablet View) ---------- */
-/* .footer-links {
-    width: 70%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* ------- Footer ------- */
+    footer {
+        margin: 10px 0;
+    }
+
+    .footer-title {
+        padding: 0;
+        padding-bottom: 30px;
+    }
+
+    .footer-links {
+        width: 70%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-links a {
+        margin: 0 10px;
+    }
 }
-
-.footer-helpful-link {
-    margin: 0 10px;
-}
-
-} */

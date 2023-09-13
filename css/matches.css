@@ -66,4 +66,34 @@
     .match-card {
         padding: 10px 10px 0px 10px;
     }
+
+    /* ------- Footer Section------- */
+}
+
+/* Tablet View - Max Width: 992px */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    /*------------ Banner -----  */
+
+    /*-------- Side navbar Section -----  */
+
+    /*----- Matches Section ------  */
+    .matches {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .match-card {
+        padding: 10px 10px 0px 10px;
+    }
+
+    /* ----- View All Button ----- */
+    .view-all-btn {
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+    }
+
+    /* ------- Footer ------- */
 }

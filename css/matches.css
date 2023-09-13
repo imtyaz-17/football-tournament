@@ -16,6 +16,14 @@
     padding: 35px 26px 0px 26px;
 }
 
+.match-card:hover {
+    letter-spacing: 2px;
+    background: none;
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
 .match-card .match-card-flags {
     display: flex;
     justify-content: center;

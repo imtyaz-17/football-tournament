@@ -31,11 +31,6 @@
     padding: 0 10px;
 }
 
-/* 
-.match-card-content {
-    background-color: #fafafa;
-} */
-
 .match-card-country {
     color: #161616;
     font-size: 20px;
@@ -51,4 +46,24 @@
     font-size: 16px;
     font-weight: 400;
     padding: 5px 10px 0px 10px;
+}
+
+/****** Media Quaries *******/
+
+/* Mobile Device - Max Width: 688px*/
+
+@media only screen and (max-width:688px) {
+
+    /*------ Banner Section-----  */
+
+    /*---- Side navbar Section ---  */
+
+    /*----- Matches Section ------  */
+    .matches {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .match-card {
+        padding: 10px 10px 0px 10px;
+    }
 }

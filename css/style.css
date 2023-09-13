@@ -28,7 +28,7 @@ a {
     width: 90%;
     margin: 0 auto;
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     border-radius: 30px;
     display: flex;
     padding: 35px 80px 0 80px;
@@ -217,11 +217,7 @@ a {
 
 /* ------- View all Button Style ------- */
 .view-all-btn {
-    visibility: hidden;
-    display: flex;
-    justify-content: center;
-    margin: 50px 0;
-
+    display: none;
 }
 
 .view-all-btn a {
@@ -302,63 +298,80 @@ hr {
 
 @media only screen and (max-width:688px) {
 
-    /*---------------------Banner (Mobile View) -----  */
-    /* .banner {
+    /*------ Banner Section-----  */
+
+    .banner {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 30px 10px 0 10px;
+        margin: 20px auto 0;
     }
 
-    .banner-container-left {
+    .banner-content {
         justify-content: center;
         align-items: center;
         margin-bottom: 20px;
     }
 
-    .banner-left-title {
+    .banner-title {
         font-size: 2em;
+        font-weight: 600;
         text-align: center;
         line-height: 40px;
     }
 
-    .banner-left-text {
+    .banner-text {
         text-align: center;
-    } */
+    }
 
-    /*-----------------------Blog Section (Mobile View)-----  */
+    /*-----Blog Section ----  */
 
-    /* .blog-contents-section {
+    .blogs-section {
         flex-direction: column;
     }
 
-    .side-menu {
+    .side-navbar-container {
         margin-bottom: 20px;
     }
 
-    .sude-menu-container {
+    .side-navbar {
         width: 100%;
         background-color: #FFF;
     }
 
-    .menu {
-        border: 1px solid rgb(188, 188, 188);
+    .navb-btn {
+        border: 1px solid #E8E8E8;
     }
 
-    .blog-cards-container {
+    .blogs {
         grid-template-columns: repeat(1, 1fr);
-    } */
+    }
 
-    /* ---------------------------- View All Button (Mobile View) --- */
-    /* .view-all-button-section {
-        visibility: hidden;
-    } */
+    /* ------ Footer  ---- */
 
-    /* ---------------------------- Footer (Mobile View) ---------- */
-    /* .footer-links {
+    footer {
+        margin: 0;
+    }
+
+    .footer-title {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .footer-links {
         flex-direction: column;
-    } */
+        margin: 5px;
+    }
+
+    .footer-social-links {
+        margin-top: 10px;
+    }
+
+    .footer-social-links-title {
+        margin-bottom: 15px;
+    }
 }
 
 

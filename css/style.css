@@ -1,7 +1,7 @@
 /* ---------- Google Fonts: Poppins   --------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-/* ------------------------- */
+/* ------------------------------------------------------------------------------ */
 
 * {
     margin: 0;
@@ -19,7 +19,7 @@ a {
     text-decoration: none;
 }
 
-/* ------------------------- */
+/* ------------------------------------------------------------------------------ */
 
 /* ----- Banner Styles ----- */
 .banner {
@@ -96,7 +96,7 @@ a {
     width: 100%;
 }
 
-/* ------------------------- */
+/* ------------------------------------------------------------------------------ */
 
 /* ------- Blog Section Styles -------- */
 .blogs-section {
@@ -171,7 +171,7 @@ a {
     background-color: #fafafa;
 }
 
-.blog-card-button {
+.blog-card-btn {
     color: #161616;
     padding: 5px 15px;
     border: 1px solid #161616;
@@ -180,7 +180,7 @@ a {
     font-weight: 500;
 }
 
-.blog-card-button:hover {
+.blog-card-btn:hover {
     background: #161616;
     color: #FFF;
 }
@@ -213,24 +213,25 @@ a {
     margin-left: 5px;
 }
 
-/* ------------------------- */
+/* ------------------------------------------------------------------------------ */
 
-/* -------View All Button Section Style -------------- */
-/* .view-all-button-section {
+/* ------- View all Button Style ------- */
+.view-all-btn {
     visibility: hidden;
     display: flex;
     justify-content: center;
     margin: 50px 0;
-} */
 
-/* .view-all-button {
-    background: #1077C3;
-    padding: 10px 30px;
+}
+
+.view-all-btn a {
+    background: #D00;
     color: #FFF;
-    border-radius: 10px;
-} */
+    padding: 10px 30px;
+    border-radius: 5px;
+}
 
-/* ------------------------- */
+/* ------------------------------------------------------------------------------ */
 
 /* ------- Footer Style ------- */
 
